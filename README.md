@@ -1,6 +1,4 @@
 # Trio-task
-Actual trio task files are in master branch
-
 
 The goal of project task was to deploy the trio task onto AWS, making use of the services I had learned during the asynchronous week.
 
