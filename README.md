@@ -14,7 +14,7 @@ With the public subnet I created an internet gateway so that it could connect to
 
 ![ec2](https://github.com/Hamza-Dogar/triotask/blob/main/images/ec2.PNG)
 
-On one of the private subnets I then created a rds database and added its own security group which would only allow for it to communicate with the ec2 instance on the public subnet. I created this subnet in a different availability zone to the ec2 instance so that if one zone was unavailable the entire application would not stop working. I then made note of the end point and port of the rds database and moved back into the ec2 instance.
+On one of the private subnets I then created a rds database and added its own security group and subnet group consisting of both private subnets, which would only allow for it to communicate with the ec2 instance on the public subnet. I created this subnet in a different availability zone to the ec2 instance and did the same for the second private subnet, so that if one zone was unavailable the entire application would not stop working. I then made note of the end point and port of the rds database and moved back into the ec2 instance.
 
 ![rds](https://github.com/Hamza-Dogar/triotask/blob/main/images/rds.PNG)
 
