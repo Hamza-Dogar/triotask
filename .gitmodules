@@ -1,0 +1,3 @@
+[submodule "trio-task"]
+	path = trio-task
+	url = https://gitlab.com/qacdevops/trio-task.git
